@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://caverns-files-web/layers/tetris.png" type="Texture" id=1]
+
+[node name="l" type="Sprite"]
+position = Vector2( 115.462, 87.6667 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 96, 64, 96, 64 )
