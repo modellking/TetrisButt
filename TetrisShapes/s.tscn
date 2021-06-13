@@ -3,8 +3,11 @@
 [ext_resource path="res://caverns-files-web/layers/tetris.png" type="Texture" id=1]
 
 [node name="s" type="Sprite"]
-position = Vector2( 72.9974, -96.3708 )
 scale = Vector2( -1, 1 )
 texture = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 0, 64, 96, 64 )
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+visible = false
+polygon = PoolVector2Array( -45.7665, -30.435, 14.5857, -30.1377, 14.2884, 1.3763, 46.6943, 1.6736, 46.6943, 29.62, -14.8472, 30.5119, -13.658, -1.59672, -46.6584, -2.19132 )
